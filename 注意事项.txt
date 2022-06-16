@@ -1,0 +1,31 @@
+git账号；密码：liwu-yi  ; qw5275...
+
+
+1安装路由
+	npm i vue-router@3
+vue-router 4版本以上只能在vue3中使用，直接装vue-router不指定版本会默认装最新版本。
+
+2查看webpack/less-loader所有版本：
+	npm view webpack versions
+	npm view less-loader versions
+例如webpack5.x对应less-loader8.x，9.x，10.x
+3安装less-loader
+	npm i less-loader@9  指定9版本
+---------》或者：
+	npm i --save less less-loader@9
+ https://wekenw.gitee.io/vuedoc/
+
+
+4.webpack处理less文件时提示Cannot find module 'less'错误的处理方法。
+webpack在处理less文件时，始终提示Cannot find module 'less'，按照官方文档中的说法，只需安装less-loader、css-loader、style-loader就行了，但反复测试，始终报错。抱着试一试的心态安装了一下less模块（npm -install less --save-dev）
+
+5.npm i --save ant-design-vue@1       ant-design插件
+6.npm i element-ui                element插件
+7. npm install --save axios        axios安装
+8. npm install  --save nprogress      进度条安装
+9. vue2中，要用vuex的3版本
+    vue3中，要用vuex的4版本   
+    npm  i vuex@3
+
+10.   npm i nanoid   生成唯一字符串
+11.   npm install --save mockjs 
