@@ -7,7 +7,7 @@ import FooterMusic from '@/components/item/FooterMusic'
 export default {
   components:{FooterMusic}
 }
-/* ssssss */
+/* ssssss试试试 */
 </script>
 <style lang="less">
 
